@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="tl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tsapter 4: Panghuling Bati 🎂</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- 🎵 AUDIO: add your mp3 for this page below (replace the src path) -->
+<audio id="bgm" src="assets/audio/page5-bati.mp3" autoplay loop></audio>
+<button id="music-toggle" class="music-toggle" aria-label="Play or pause music">🎵</button>
+
+<div class="sticker-field" aria-hidden="true"></div>
+
+<svg class="corner-bloom top-right" viewBox="0 0 100 100" aria-hidden="true">
+  <g fill="#ffffff" stroke="#f2c879" stroke-width="1.5">
+    <ellipse cx="50" cy="25" rx="10" ry="20"/>
+    <ellipse cx="50" cy="25" rx="10" ry="20" transform="rotate(72 50 50)"/>
+    <ellipse cx="50" cy="25" rx="10" ry="20" transform="rotate(144 50 50)"/>
+    <ellipse cx="50" cy="25" rx="10" ry="20" transform="rotate(216 50 50)"/>
+    <ellipse cx="50" cy="25" rx="10" ry="20" transform="rotate(288 50 50)"/>
+  </g>
+  <circle cx="50" cy="50" r="8" fill="#f2c879"/>
+</svg>
+
+<nav class="tab-nav" aria-label="Mga tsapter">
+  <a href="index.html">Simula</a>
+  <a href="page2.html">Tsapter 1</a>
+  <a href="page3.html">Tsapter 2</a>
+  <a href="page4.html">Tsapter 3</a>
+  <a href="page5.html" class="active">Tsapter 4</a>
+</nav>
+
+<main>
+  <p class="eyebrow">tsapter 4 · huling pahina</p>
+  <h2>Isang Huling Hiling Para sa'Yo, Ma 🎂</h2>
+
+  <div class="letter-card">
+    <p class="body-text">
+      Bago tayo magtapos, gusto kong ikaw naman ang gumawa ng hiling.
+      Patayin mo ang kandila, Ma — i-click mo lang ito. 🕯️
+    </p>
+
+    <div class="cake-wrap">
+      <svg class="candle" width="220" height="220" viewBox="0 0 220 220"
+           role="button" tabindex="0" aria-label="Patayin ang kandila"
+           onclick="blowCandles()" onkeypress="if(event.key==='Enter') blowCandles()">
+        <!-- plate -->
+        <ellipse cx="110" cy="190" rx="85" ry="12" fill="#f6c7d4"/>
+        <!-- cake base -->
+        <rect x="45" y="120" width="130" height="60" rx="10" fill="#fbe4ea" stroke="#e88aa0" stroke-width="2"/>
+        <rect x="45" y="120" width="130" height="16" rx="8" fill="#ffffff" stroke="#e88aa0" stroke-width="2"/>
+        <!-- sprinkles -->
+        <circle cx="70" cy="150" r="3" fill="#e88aa0"/>
+        <circle cx="95" cy="160" r="3" fill="#f2c879"/>
+        <circle cx="130" cy="150" r="3" fill="#b4485f"/>
+        <circle cx="155" cy="160" r="3" fill="#e88aa0"/>
+        <!-- candle -->
+        <rect x="103" y="85" width="14" height="38" rx="3" fill="#f2c879"/>
+        <!-- flame -->
+        <ellipse class="flame" cx="110" cy="78" rx="8" ry="14" fill="#ffb347" style="transition: opacity 0.5s ease;"/>
+        <ellipse class="flame" cx="110" cy="80" rx="4" ry="7" fill="#fff2c9" style="transition: opacity 0.5s ease;"/>
+      </svg>
+      <p class="body-text" style="margin-top:6px; font-family:'Caveat',cursive; font-size:1.3rem;">
+        (i-click ang kandila para mag-wish)
+      </p>
+    </div>
+
+    <div id="wish-reveal" class="wish-reveal">
+      <p class="body-text">
+        Bago mo hilingin ang sarili mong hiling — alam mo bang ikaw na
+        mismo ang isa sa pinakamalaking biyaya sa buhay ko?
+      </p>
+      <p class="body-text">
+        Sana sa taong darating, puno ka ng magandang kalusugan, tunay na
+        kasiyahan, at kapayapaan ng isip. Sana marami pa tayong
+        gagawing bagong alaala. At kahit gaano man kalayo o kalapit,
+        alam mong laging may isang taong nagmamahal sa'yo nang walang
+        hanggan.
+      </p>
+      <p class="body-text">Maligayang kaarawan, Ma. Mahal na mahal kita. 💗</p>
+      <p class="signature">— ang anak mong lagi at laging magmamahal sa'yo</p>
+    </div>
+
+    <div class="page-turn">
+      <a href="page4.html" class="btn">⟵ Balik</a>
+      <a href="index.html" class="btn">Balik sa Simula 🌸</a>
+    </div>
+  </div>
+
+  <footer class="credit">gawa nang may pagmamahal 💗</footer>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>

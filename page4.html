@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="tl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tsapter 3: Larawan Natin 📸</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- 🎵 AUDIO: add your mp3 for this page below (replace the src path) -->
+<audio id="bgm" src="assets/audio/page4-larawan.mp3" autoplay loop></audio>
+<button id="music-toggle" class="music-toggle" aria-label="Play or pause music">🎵</button>
+
+<div class="sticker-field" aria-hidden="true"></div>
+
+<svg class="corner-bloom bottom-left" viewBox="0 0 100 100" aria-hidden="true">
+  <g fill="#ffffff" stroke="#f2c879" stroke-width="1.5">
+    <ellipse cx="50" cy="25" rx="10" ry="20"/>
+    <ellipse cx="50" cy="25" rx="10" ry="20" transform="rotate(72 50 50)"/>
+    <ellipse cx="50" cy="25" rx="10" ry="20" transform="rotate(144 50 50)"/>
+    <ellipse cx="50" cy="25" rx="10" ry="20" transform="rotate(216 50 50)"/>
+    <ellipse cx="50" cy="25" rx="10" ry="20" transform="rotate(288 50 50)"/>
+  </g>
+  <circle cx="50" cy="50" r="8" fill="#f2c879"/>
+</svg>
+
+<nav class="tab-nav" aria-label="Mga tsapter">
+  <a href="index.html">Simula</a>
+  <a href="page2.html">Tsapter 1</a>
+  <a href="page3.html">Tsapter 2</a>
+  <a href="page4.html" class="active">Tsapter 3</a>
+  <a href="page5.html">Tsapter 4</a>
+</nav>
+
+<main>
+  <p class="eyebrow">tsapter 3</p>
+  <h2>Larawan Natin 📸</h2>
+
+  <div class="letter-card">
+    <p class="body-text">
+      Ilan sa mga sandaling pinakamamahal ko — bawat larawan, isang
+      alaalang sasamahan ko habambuhay.
+    </p>
+
+    <div class="polaroid-grid">
+      <figure class="polaroid">
+        <div class="tape"></div>
+        <div class="photo-slot">
+          <!-- 🖼️ IMAGE: assets/images/photo1.jpg -->
+          <img src="assets/images/photo1.jpg" alt="Noong bata pa ako"
+               onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+          <div class="placeholder-hint" style="display:none;">🌸 photo1.jpg</div>
+        </div>
+        <figcaption>noong bata pa ako</figcaption>
+      </figure>
+
+      <figure class="polaroid">
+        <div class="tape"></div>
+        <div class="photo-slot">
+          <!-- 🖼️ IMAGE: assets/images/photo2.jpg -->
+          <img src="assets/images/photo2.jpg" alt="Kasama ka sa bawat pagdiriwang"
+               onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+          <div class="placeholder-hint" style="display:none;">🌸 photo2.jpg</div>
+        </div>
+        <figcaption>kasama ka sa bawat pagdiriwang</figcaption>
+      </figure>
+
+      <figure class="polaroid">
+        <div class="tape"></div>
+        <div class="photo-slot">
+          <!-- 🖼️ IMAGE: assets/images/photo3.jpg -->
+          <img src="assets/images/photo3.jpg" alt="Simpleng sandali, malaking saya"
+               onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+          <div class="placeholder-hint" style="display:none;">🌸 photo3.jpg</div>
+        </div>
+        <figcaption>simpleng sandali, malaking saya</figcaption>
+      </figure>
+
+      <figure class="polaroid">
+        <div class="tape"></div>
+        <div class="photo-slot">
+          <!-- 🖼️ IMAGE: assets/images/photo4.jpg -->
+          <img src="assets/images/photo4.jpg" alt="Kahit anong mangyari, magkasama tayo"
+               onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+          <div class="placeholder-hint" style="display:none;">🌸 photo4.jpg</div>
+        </div>
+        <figcaption>kahit anong mangyari, magkasama tayo</figcaption>
+      </figure>
+
+      <figure class="polaroid">
+        <div class="tape"></div>
+        <div class="photo-slot">
+          <!-- 🖼️ IMAGE: assets/images/photo5.jpg -->
+          <img src="assets/images/photo5.jpg" alt="Ang init ng bawat yakap mo"
+               onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+          <div class="placeholder-hint" style="display:none;">🌸 photo5.jpg</div>
+        </div>
+        <figcaption>ang init ng bawat yakap mo</figcaption>
+      </figure>
+
+      <figure class="polaroid">
+        <div class="tape"></div>
+        <div class="photo-slot">
+          <!-- 🖼️ IMAGE: assets/images/photo6.jpg -->
+          <img src="assets/images/photo6.jpg" alt="Hanggang ngayon, ikaw pa rin"
+               onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+          <div class="placeholder-hint" style="display:none;">🌸 photo6.jpg</div>
+        </div>
+        <figcaption>hanggang ngayon, ikaw pa rin</figcaption>
+      </figure>
+    </div>
+
+    <div class="page-turn">
+      <a href="page3.html" class="btn">⟵ Balik</a>
+      <a href="page5.html" class="btn">Huling Tsapter ⟶</a>
+    </div>
+  </div>
+
+  <footer class="credit">gawa nang may pagmamahal 💗</footer>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>

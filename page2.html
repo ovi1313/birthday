@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="tl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tsapter 1: Mga Alaala 🌸</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- 🎵 AUDIO: add your mp3 for this page below (replace the src path) -->
+<audio id="bgm" src="assets/audio/page2-memories.mp3" autoplay loop></audio>
+<button id="music-toggle" class="music-toggle" aria-label="Play or pause music">🎵</button>
+
+<div class="sticker-field" aria-hidden="true"></div>
+
+<svg class="corner-bloom bottom-left" viewBox="0 0 100 100" aria-hidden="true">
+  <g fill="#ffffff" stroke="#f2c879" stroke-width="1.5">
+    <ellipse cx="50" cy="25" rx="10" ry="20"/>
+    <ellipse cx="50" cy="25" rx="10" ry="20" transform="rotate(72 50 50)"/>
+    <ellipse cx="50" cy="25" rx="10" ry="20" transform="rotate(144 50 50)"/>
+    <ellipse cx="50" cy="25" rx="10" ry="20" transform="rotate(216 50 50)"/>
+    <ellipse cx="50" cy="25" rx="10" ry="20" transform="rotate(288 50 50)"/>
+  </g>
+  <circle cx="50" cy="50" r="8" fill="#f2c879"/>
+</svg>
+
+<nav class="tab-nav" aria-label="Mga tsapter">
+  <a href="index.html">Simula</a>
+  <a href="page2.html" class="active">Tsapter 1</a>
+  <a href="page3.html">Tsapter 2</a>
+  <a href="page4.html">Tsapter 3</a>
+  <a href="page5.html">Tsapter 4</a>
+</nav>
+
+<main>
+  <p class="eyebrow">tsapter 1</p>
+  <h2>Mga Alaala Kong Di Malilimutan</h2>
+
+  <div class="letter-card">
+    <p class="body-text">
+      Naaalala ko pa noong bata pa lang ako — ikaw yung unang gumigising,
+      bago pa man tumunog ang alarm ko. Ikaw yung naghahanda ng baon ko
+      kahit pagod na pagod ka pa sa trabaho kagabi lang.
+    </p>
+    <p class="body-text">
+      Naaalala ko rin yung mga gabing kinukwentuhan mo ako bago matulog,
+      hawak ang kamay ko hanggang sa antukin ako. Kahit gaano ka kapagod,
+      laging may natitirang oras ka para sa akin.
+    </p>
+    <p class="body-text">
+      Ikaw yung unang humalik sa noo ko tuwing may sugat ako, at unang
+      yumakap tuwing umiiyak ako kahit wala namang malaking dahilan.
+      Hindi ko na maisip kung ano sana ang buhay ko kung wala ka.
+    </p>
+
+    <div class="polaroid-grid">
+      <figure class="polaroid">
+        <div class="tape"></div>
+        <div class="photo-slot">
+          <!-- 🖼️ IMAGE: replace src with your jpg, e.g. assets/images/memory1.jpg -->
+          <img src="assets/images/memory1.jpg" alt="Ako at si Mama noong bata pa ako"
+               onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+          <div class="placeholder-hint" style="display:none;">🌸 lagay dito ang larawan<br>memory1.jpg</div>
+        </div>
+        <figcaption>ako at si Mama, noong bata pa ako</figcaption>
+      </figure>
+
+      <figure class="polaroid">
+        <div class="tape"></div>
+        <div class="photo-slot">
+          <!-- 🖼️ IMAGE: replace src with your jpg, e.g. assets/images/memory2.jpg -->
+          <img src="assets/images/memory2.jpg" alt="Isa sa mga paborito kong alaala"
+               onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+          <div class="placeholder-hint" style="display:none;">🌸 lagay dito ang larawan<br>memory2.jpg</div>
+        </div>
+        <figcaption>isa sa mga paborito kong alaala</figcaption>
+      </figure>
+
+      <figure class="polaroid">
+        <div class="tape"></div>
+        <div class="photo-slot">
+          <!-- 🖼️ IMAGE: replace src with your jpg, e.g. assets/images/memory3.jpg -->
+          <img src="assets/images/memory3.jpg" alt="Sabay-sabay kaming tumatawa dito"
+               onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+          <div class="placeholder-hint" style="display:none;">🌸 lagay dito ang larawan<br>memory3.jpg</div>
+        </div>
+        <figcaption>sabay-sabay kaming tumatawa dito</figcaption>
+      </figure>
+    </div>
+
+    <div class="page-turn">
+      <a href="index.html" class="btn">⟵ Balik</a>
+      <a href="page3.html" class="btn">Susunod na Tsapter ⟶</a>
+    </div>
+  </div>
+
+  <footer class="credit">gawa nang may pagmamahal 💗</footer>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
